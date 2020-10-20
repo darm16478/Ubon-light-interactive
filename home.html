@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Home</title>
+</head>
+<body>
+    <div id="imghotel">Home</div>
+    <div id="allQ">คิวทั้งหมด : </div>
+    <div id="presenQ"><p>คิวปัจุบัน :</p>  </div>
+    <div id="yourQ"><p>คิวของคุณ  : </p></div>
+    <div id="time">Time out : </div>
+    <Button onclick="insertQ()"> จองคิว</Button>
+    <div></div>
+    <!---------------------------------------------- Firebase ---------------------------------->
+    <!-- this is script moment format date -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+    <script>
+
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDFSl2QDM96BReRFGR4MwrpbFXwao7NuP0",
+  authDomain: "ubon-88459.firebaseapp.com",
+  databaseURL: "https://ubon-88459.firebaseio.com",
+  projectId: "ubon-88459",
+  storageBucket: "ubon-88459.appspot.com",
+  messagingSenderId: "835364456620",
+  appId: "1:835364456620:web:337d85f78f0f4f75da7709",
+  measurementId: "G-J3YXEF9H0V"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <script src="./js/home.js"></script>
+</body>
+</html>
