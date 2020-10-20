@@ -26,21 +26,43 @@
 
 <body id="main">
 
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">เข้าร่วมกิจกรรม</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ท่านต้องการจองคิวเพื่อเข้าร่วมกิจกรรมหรือไม่
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
+        <button type="button" class="btn btn-primary">ใช่</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
 <div class="everything">
 	
-	<div class="logox animate__animated animate__fadeInDown animate__delay-4s"><img src="img/Frame.png" width="25%"></div>
+  <div class="logox animate__animated animate__fadeInDown animate__delay-4s"><img src="img/Frame.png" width="25%"></div>
+  <!-- p1------------------------------------------------------------------------------------------------------------------ -->
 	<div class="PAGEONE">
 	<div class="warpmiddle row">
 		<div class="col-6 numb">หมายเลขผู้ใช้ปัจจุบัน<p id="presenQ"></p></div>
 		<div class="col-6 numb">จำนวนผู้รอใช้งาน<p id="wait"></p></div>
 		<div class="col-12 start">
-			<button class="animate__animated animate__bounceIn animate__delay-4s" onclick="zfunc()" >จองคิว</button>
+			<button class="animate__animated animate__bounceIn animate__delay-4s" onclick="zfunc()" data-toggle="modal" data-target="#exampleModalCenter">จองคิว</button>
 			<p class="animate__animated animate__fadeInDown animate__delay-4s">* หนึ่งคนสามารถเล่นได้ 1.30 นาที</p>
 
 		</div>
 	</div>
 	</div>
-
+<!-- p2------------------------------------------------------------------------------------------------------------------ -->
 	<div class="PAGETWO">
 		<div class="col-12 correct animate__animated animate__bounceIn"><img src="img/tick1.png"></div>
 		<div class="col-12 succeed center">จองคิวสำเร็จ!</div>
@@ -50,22 +72,86 @@
 		<div class="col-6 numb center animate__animated animate__flipInX animate__delay-2s">หมายเลขผู้ใช้ปัจจุบัน<p id="presenQ1"></p></div>
 		<div class="col-6 numb center animate__animated animate__flipInX animate__delay-2s">จำนวนผู้รอใช้งาน<p id="wait1"></p></div>
 		</div>
+  </div>
+  
+<!-- p3------------------------------------------------------------------------------------------------------------------ -->
+	<div class="PAGE3">
+    <div class="col-12 titel43 center">คลิกเพื่อเปลี่ยนสีไฟบนอาคารตามใจชอบ</div>
+    <div class="col-12 canvasD center"><img src="img/Groupf.png"></div>
+    <div class="col-12 nameparret center">Ancient pallate</div>
+    <div class="col-12 barbox center"><img src="img/bar.png"></div>
+    <div class="row adjBotton">
+    <div class="col-3">1</div>
+    <div class="col-3">2</div>
+    <div class="col-3">3</div>
+    <div class="col-3">4</div>
+    <div class="col-3">5</div>
+    <div class="col-3">6</div>
+    <div class="col-3">7</div>
+    <div class="col-3">8</div>
+    </div>
 	</div>
+
+<!-- p4------------------------------------------------------------------------------------------------------------------ -->
+  <div class="PAGE4">
+    <div class="col-12 titel43 center">คลิกเพื่อเปลี่ยนสีไฟบนอาคารตามใจชอบ</div>
+    <div class="col-12 canvasDx center"><img src="img/Groupd.png"></div>
+
+    </div>
+
+
+<!-- aboutus------------------------------------------------------------------------------------------------------------------ -->
+<div class="aboutUS">
+    
+    <div class="col-12 picturefull center"><img src="img/screen.png"></div>
+    <div class="col-12 msgtitle center">ABOUT US</div>
+    <div class="col-12 msg center">H-lab is a laboratory for entertainment based in Bangkok, We are a technology firm for events, concerts and exhibitions.</div>
+    <div class="row contactinfo">
+    <div class="col-4"><img src="img/facebook.svg"></div>
+    <div class="col-8"><a href="https://www.facebook.com/hlabcompany">hlabcompany</a></div>
+    <div class="col-4"><img src="img/envelope.svg"></div>
+    <div class="col-8">h-lab.company@gmail.com</div>
+    <div class="col-4"><img src="img/phone.svg"></div>
+    <div class="col-8">090-946-6222</div>
+</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <footer id="mobile-footer" class="animate__animated animate__fadeInUp animate__delay-4s">
   <div id="mobile-menu">
     <div id="mobile-footer-container">
       <div class="mobile-link BACTIVE">
-        <a href="#" class="text-center"><img src="img/star-circle.svg"></a>
+        <a href="#" class="text-center" onclick="homepage()"><img src="img/star-circle.svg"></a>
       </div>
       <div class="mobile-link">
-        <a href="#" class="text-center"><img src="img/paintbucket.svg" onclick="painbucket()"></a>
+        <a href="#" class="text-center" onclick="painbucket()"><img src="img/paintbucket.svg"></a>
       </div>
       <div class="mobile-link">
-        <a href="#" class="text-center"><img src="img/paintbrush.svg"></a>
+        <a href="#" class="text-center"  onclick="painbrush()"><img src="img/paintbrush.svg"></a>
       </div>
       <div class="mobile-link">
-        <a href="#" class="text-center"><img src="img/mood-tongue.svg"></a>
+        <a href="#" class="text-center"  onclick="mood()"><img src="img/mood-tongue.svg"></a>
       </div>
     </div>
   </div>
@@ -139,11 +225,44 @@
     this.insertQ();
 
 	}
+  // PAGE3 PAGE4 aboutUS
 
+function homepage()
+{
+  location.reload();
+}
 function painbucket()
 {
-  console.log("pain");
-  
+  var element = document.querySelector('.PAGEONE');
+  element.style.display = "none";
+  element = document.querySelector('.PAGE4');
+  element.style.display = "none";
+  element = document.querySelector('.aboutUS');
+  element.style.display = "none";
+  var element2 = document.querySelector('.PAGE3');
+  element2.style.display = "inline";
+}
+function painbrush()
+{
+  var element = document.querySelector('.PAGEONE');
+  element.style.display = "none";
+  element = document.querySelector('.PAGE3');
+  element.style.display = "none";
+  element = document.querySelector('.aboutUS');
+  element.style.display = "none";
+  var element2 = document.querySelector('.PAGE4');
+  element2.style.display = "inline";
+}
+function mood()
+{
+  var element = document.querySelector('.PAGEONE');
+  element.style.display = "none";
+  element = document.querySelector('.PAGE4');
+  element.style.display = "none";
+  element = document.querySelector('.PAGE3');
+  element.style.display = "none";
+  const element2 = document.querySelector('.aboutUS');
+  element2.style.display = "inline";
 }
 </script>
   <!-- Bootstrap core JavaScript -->

@@ -140,7 +140,7 @@ async function insertQ(){
      var mydate = new Date();
      mydate.setTime(mydate.getTime() + 4800 * 1000);
      console.log(mydate)
-     document.cookie = `Q=${count}; expires= ${mydate} `
+    //  document.cookie = `Q=${count}; expires= ${mydate} `
      var qcookie = this.getCookie("Q");
      document.getElementById('yourQ').innerHTML =  qcookie;
  }
@@ -175,7 +175,7 @@ async function insertQ(){
              clearInterval(x);
              var mydate = new Date();
              mydate.setTime(mydate.getTime() - 1);
-             document.cookie = "Q=null; expires=" + mydate.toGMTString(); 
+            //  document.cookie = "Q=null; expires=" + mydate.toGMTString(); 
              firebase.database().ref("Data/Q/"+Q).remove();
             }
      }, 1000);

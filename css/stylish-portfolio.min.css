@@ -6,6 +6,10 @@ body {
 .row {
 	margin: 0 !important;
 }
+/* .PAGETWO {display: none;} */
+.PAGE3 {display: none;}
+.PAGE4 {display: none;}
+.aboutUS {display: none;}
 
 .mobile-link a {
 	/*opacity: .5;*/
@@ -639,7 +643,7 @@ body {
 	font-size: 1.6em;
 	font-weight: 200;
 }
-.PAGE3 .canvasD img, .aboutus .picturefull img{
+.PAGE3 .canvasD img, .aboutus .picturefull img, .PAGE4 .canvasDx img{
 	width: 100%;
 }
 .aboutUS .msgtitle{ 
@@ -672,7 +676,8 @@ body {
 /*.PAGE3 .barbox{
 	padding-bottom: 10px;
 }*/
-.PAGE3 .titel43{
+.PAGE3 .titel43,
+.PAGE4 .titel43{
 	margin-top: 5vh;
 	margin-bottom: 20px;
 	font-weight: 200;
@@ -718,3 +723,13 @@ body {
 	margin-top:10vh;
 	padding-bottom: 15px;
 }
+.modal-dialog {
+  margin: 0 !important;
+  padding: 0rem;
+}
+.modal-content {
+  width: 90%;
+  position: absolute;
+}
+.modal{position: absolute;    width: 90%;
+  height: 90%;}
