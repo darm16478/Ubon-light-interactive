@@ -15,7 +15,8 @@
 
   <!-- Custom Fonts -->
   <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&family=Roboto:wght@300;500&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"> -->
 
@@ -26,245 +27,281 @@
 
 <body id="main">
 
-<!-- Modal -->
-<!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">เข้าร่วมกิจกรรม</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ท่านต้องการจองคิวเพื่อเข้าร่วมกิจกรรมหรือไม่
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
-        <button type="button" class="btn btn-primary">ใช่</button>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<div class="everything">
-	
-  <div class="logox animate__animated animate__fadeInDown animate__delay-4s"><img src="img/Frame.png" width="25%"></div>
-  <!-- p1------------------------------------------------------------------------------------------------------------------ -->
-	<div class="PAGEONE">
-	<div class="warpmiddle row">
-		<div class="col-6 numb">หมายเลขผู้ใช้ปัจจุบัน<p id="presenQ"></p></div>
-		<div class="col-6 numb">จำนวนผู้รอใช้งาน<p id="wait"></p></div>
-		<div class="col-12 start">
-			<button class="animate__animated animate__bounceIn animate__delay-4s" onclick="zfunc()" data-toggle="modal" data-target="#exampleModalCenter">จองคิว</button>
-			<p class="animate__animated animate__fadeInDown animate__delay-4s">* หนึ่งคนสามารถเล่นได้ 1.30 นาที</p>
-
-		</div>
-	</div>
-	</div>
-<!-- p2------------------------------------------------------------------------------------------------------------------ -->
-	<div class="PAGETWO">
-		<div class="col-12 correct animate__animated animate__bounceIn"><img src="img/tick1.png"></div>
-		<div class="col-12 succeed center">จองคิวสำเร็จ!</div>
-		<div class="col-12 yournumb center">หมายเลขของคุณคือ</div>
-		<div class="col-12 order center animate__animated animate__bounceIn animate__delay-1s animate__faster" id="yourQ"> </div>
-		<div class="row">
-		<div class="col-6 numb center animate__animated animate__flipInX animate__delay-2s">หมายเลขผู้ใช้ปัจจุบัน<p id="presenQ1"></p></div>
-		<div class="col-6 numb center animate__animated animate__flipInX animate__delay-2s">จำนวนผู้รอใช้งาน<p id="wait1"></p></div>
-		</div>
-  </div>
-  
-<!-- p3------------------------------------------------------------------------------------------------------------------ -->
-	<div class="PAGE3">
-    <div class="col-12 titel43 center">คลิกเพื่อเปลี่ยนสีไฟบนอาคารตามใจชอบ</div>
-    <div class="col-12 canvasD center"><img src="img/Groupf.png"></div>
-    <div class="col-12 nameparret center">Ancient pallate</div>
-    <div class="col-12 barbox center"><img src="img/bar.png"></div>
-    <div class="row adjBotton">
-    <div class="col-3">1</div>
-    <div class="col-3">2</div>
-    <div class="col-3">3</div>
-    <div class="col-3">4</div>
-    <div class="col-3">5</div>
-    <div class="col-3">6</div>
-    <div class="col-3">7</div>
-    <div class="col-3">8</div>
-    </div>
-	</div>
-
-<!-- p4------------------------------------------------------------------------------------------------------------------ -->
-  <div class="PAGE4">
-    <div class="col-12 titel43 center">คลิกเพื่อเปลี่ยนสีไฟบนอาคารตามใจชอบ</div>
-    <div class="col-12 canvasDx center"><img src="img/Groupd.png"></div>
-
-    </div>
-
-
-<!-- aboutus------------------------------------------------------------------------------------------------------------------ -->
-<div class="aboutUS">
-    
-    <div class="col-12 picturefull center"><img src="img/screen.png"></div>
-    <div class="col-12 msgtitle center">ABOUT US</div>
-    <div class="col-12 msg center">H-lab is a laboratory for entertainment based in Bangkok, We are a technology firm for events, concerts and exhibitions.</div>
-    <div class="row contactinfo">
-    <div class="col-4"><img src="img/facebook.svg"></div>
-    <div class="col-8"><a href="https://www.facebook.com/hlabcompany">hlabcompany</a></div>
-    <div class="col-4"><img src="img/envelope.svg"></div>
-    <div class="col-8">h-lab.company@gmail.com</div>
-    <div class="col-4"><img src="img/phone.svg"></div>
-    <div class="col-8">090-946-6222</div>
-</div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer id="mobile-footer" class="animate__animated animate__fadeInUp animate__delay-4s">
-  <div id="mobile-menu">
-    <div id="mobile-footer-container">
-      <div class="mobile-link BACTIVE">
-        <a href="#" class="text-center" onclick="homepage()"><img src="img/star-circle.svg"></a>
-      </div>
-      <div class="mobile-link">
-        <a href="#" class="text-center" onclick="painbucket()"><img src="img/paintbucket.svg"></a>
-      </div>
-      <div class="mobile-link">
-        <a href="#" class="text-center"  onclick="painbrush()"><img src="img/paintbrush.svg"></a>
-      </div>
-      <div class="mobile-link">
-        <a href="#" class="text-center"  onclick="mood()"><img src="img/mood-tongue.svg"></a>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">เข้าร่วมกิจกรรม</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ท่านต้องการจองคิวเพื่อเข้าร่วมกิจกรรมหรือไม่
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="zfunc()">ใช่</button>
+        </div>
       </div>
     </div>
   </div>
-</footer>
 
-</div>
+  <div class="everything">
 
-<div class="splash">
-  <div class="splash_logo">
-    <img src="img/Frame.png">
+    <div class="logox animate__animated animate__fadeInDown animate__delay-4s"><img src="img/Frame.png" width="25%">
+    </div>
+    <!-- p1------------------------------------------------------------------------------------------------------------------ -->
+    <div class="PAGEONE">
+      <div class="warpmiddle row">
+        <div class="col-6 numb">หมายเลขผู้ใช้ปัจจุบัน<p id="presenQ"></p>
+        </div>
+        <div class="col-6 numb">จำนวนผู้รอใช้งาน<p id="wait"></p>
+        </div>
+        <div class="col-12 start">
+          <button class="animate__animated animate__bounceIn animate__delay-4s" data-toggle="modal"
+            data-target="#exampleModalCenter">จองคิว</button>
+          <p class="animate__animated animate__fadeInDown animate__delay-4s">* หนึ่งคนสามารถเล่นได้ 1.30 นาที</p>
+
+        </div>
+      </div>
+    </div>
+    <!-- p2------------------------------------------------------------------------------------------------------------------ -->
+    <div class="PAGETWO">
+      <div class="col-12 correct animate__animated animate__bounceIn"><img src="img/tick1.png"></div>
+      <div class="col-12 succeed center">จองคิวสำเร็จ!</div>
+      <div class="col-12 yournumb center">หมายเลขของคุณคือ</div>
+      <div class="col-12 order center animate__animated animate__bounceIn animate__delay-1s animate__faster" id="yourQ">
+      </div>
+      <div class="row">
+        <div class="col-6 numb center animate__animated animate__flipInX animate__delay-2s">หมายเลขผู้ใช้ปัจจุบัน<p
+            id="presenQ1"></p>
+        </div>
+        <div class="col-6 numb center animate__animated animate__flipInX animate__delay-2s">จำนวนผู้รอใช้งาน<p
+            id="wait1"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- p3------------------------------------------------------------------------------------------------------------------ -->
+    <div class="PAGE3">
+      <div class="col-12 titel43 center">คลิกเพื่อเปลี่ยนสีไฟบนอาคารตามใจชอบ</div>
+      <div class="col-12 canvasD center"><img src="img/Groupf.png"></div>
+      <div class="col-12 nameparret center">Ancient pallate</div>
+      <div class="col-12 barbox center"><img src="img/bar.png"></div>
+      <div class="row adjBotton">
+        <div class="col-3" onclick="setcolor(1)">1</div>
+        <div class="col-3" onclick="setcolor(2)">2</div>
+        <div class="col-3" onclick="setcolor(3)">3</div>
+        <div class="col-3" onclick="setcolor(4)">4</div>
+        <div class="col-3" onclick="setcolor(5)">5</div>
+        <div class="col-3" onclick="setcolor(6)">6</div>
+        <div class="col-3" onclick="setcolor(7)">7</div>
+        <div class="col-3" onclick="setcolor(8)">8</div>
+      </div>
+    </div>
+
+    <!-- p4------------------------------------------------------------------------------------------------------------------ -->
+    <div class="PAGE4">
+      <div class="col-12 titel43 center">คลิกเพื่อเปลี่ยนสีไฟบนอาคารตามใจชอบ</div>
+      <div class="col-12 canvasDx center"><img src="img/Groupd.png"></div>
+
+    </div>
+
+
+    <!-- aboutus------------------------------------------------------------------------------------------------------------------ -->
+    <div class="aboutUS">
+
+      <div class="col-12 picturefull center"><img src="img/screen.png"></div>
+      <div class="col-12 msgtitle center">ABOUT US</div>
+      <div class="col-12 msg center">H-lab is a laboratory for entertainment based in Bangkok, We are a technology firm
+        for events, concerts and exhibitions.</div>
+      <div class="row contactinfo">
+        <div class="col-4"><img src="img/facebook.svg"></div>
+        <div class="col-8"><a href="https://www.facebook.com/hlabcompany">hlabcompany</a></div>
+        <div class="col-4"><img src="img/envelope.svg"></div>
+        <div class="col-8">h-lab.company@gmail.com</div>
+        <div class="col-4"><img src="img/phone.svg"></div>
+        <div class="col-8">090-946-6222</div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="mobile-footer" class="animate__animated animate__fadeInUp animate__delay-4s">
+      <div id="mobile-menu">
+        <div id="mobile-footer-container">
+          <div class="mobile-link BACTIVE">
+            <a href="#" class="text-center" onclick="homepage()"><img src="img/star-circle.svg"></a>
+          </div>
+          <div class="mobile-link">
+            <a href="#" class="text-center" onclick="painbucket()"><img src="img/paintbucket.svg"></a>
+          </div>
+          <div class="mobile-link">
+            <a href="#" class="text-center" onclick="painbrush()"><img src="img/paintbrush.svg"></a>
+          </div>
+          <div class="mobile-link">
+            <a href="#" class="text-center" onclick="mood()"><img src="img/mood-tongue.svg"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </div>
-  <div class="splash_svg">
-    <svg width="100%" height="100%">
-      <rect width="100%" height="100%" >
-	  </svg>
+
+  <div class="splash">
+    <div class="splash_logo">
+      <img src="img/Frame.png">
+    </div>
+    <div class="splash_svg">
+      <svg width="100%" height="100%">
+        <rect width="100%" height="100%">
+      </svg>
+    </div>
+    <div class="splash_minimize">
+      <svg width="100%" height="100%">
+        <rect width="100%" height="100%">
+      </svg>
+    </div>
   </div>
-  <div class="splash_minimize">
-    <svg width="100%" height="100%">
-      <rect width="100%" height="100%" >
-	  </svg>
-  </div>
-</div>
 
 
-<!-- <div class="text">
+  <!-- <div class="text">
  f
 </div> -->
-    <!---------------------------------------------- Firebase ---------------------------------->
-    <!-- this is script moment format date -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
-    <!-- TODO: Add SDKs for Firebase products that you want to use
+  <!---------------------------------------------- Firebase ---------------------------------->
+  <!-- this is script moment format date -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
    https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
-    <script>
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+  <script>
 
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyDFSl2QDM96BReRFGR4MwrpbFXwao7NuP0",
-  authDomain: "ubon-88459.firebaseapp.com",
-  databaseURL: "https://ubon-88459.firebaseio.com",
-  projectId: "ubon-88459",
-  storageBucket: "ubon-88459.appspot.com",
-  messagingSenderId: "835364456620",
-  appId: "1:835364456620:web:337d85f78f0f4f75da7709",
-  measurementId: "G-J3YXEF9H0V"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-    </script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDFSl2QDM96BReRFGR4MwrpbFXwao7NuP0",
+      authDomain: "ubon-88459.firebaseapp.com",
+      databaseURL: "https://ubon-88459.firebaseio.com",
+      projectId: "ubon-88459",
+      storageBucket: "ubon-88459.appspot.com",
+      messagingSenderId: "835364456620",
+      appId: "1:835364456620:web:337d85f78f0f4f75da7709",
+      measurementId: "G-J3YXEF9H0V"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 
-<script>
-	// const element = document.querySelector('.my-element');
-	function zfunc(){
+  <script>
+    // const element = document.querySelector('.my-element');
+    function zfunc() {
+      console.log("X");
+      // $(".start").addClass('animate__animated', 'animate__fadeOut');
+      const element = document.querySelector('.PAGEONE');
+      element.classList.add('animate__animated', 'animate__fadeOut');
+      setTimeout(function () {
+        element.style.display = "none";
+        const element2 = document.querySelector('.PAGETWO');
+        element2.style.display = "inline";
+        var content = element2.innerHTML;
+        element2.innerHTML = content;
 
-		// $(".start").addClass('animate__animated', 'animate__fadeOut');
-		const element = document.querySelector('.PAGEONE');
-		element.classList.add('animate__animated', 'animate__fadeOut');
-		setTimeout(function(){
-			element.style.display = "none";
-			const element2 = document.querySelector('.PAGETWO');
-			element2.style.display = "inline";
-			var content = element2.innerHTML;
-			element2.innerHTML= content; 
+        // element2.classList.add('animate__animated', 'animate__fadeInUp');
+      }, 1000);
 
-			// element2.classList.add('animate__animated', 'animate__fadeInUp');
-    }, 1000); 
-    
-    this.insertQ();
+      this.insertQ();
 
-	}
-  // PAGE3 PAGE4 aboutUS
+    }
+    // PAGE3 PAGE4 aboutUS
 
-function homepage()
-{
-  location.reload();
-}
-function painbucket()
-{
-  var element = document.querySelector('.PAGEONE');
-  element.style.display = "none";
-  element = document.querySelector('.PAGE4');
-  element.style.display = "none";
-  element = document.querySelector('.aboutUS');
-  element.style.display = "none";
-  var element2 = document.querySelector('.PAGE3');
-  element2.style.display = "inline";
-}
-function painbrush()
-{
-  var element = document.querySelector('.PAGEONE');
-  element.style.display = "none";
-  element = document.querySelector('.PAGE3');
-  element.style.display = "none";
-  element = document.querySelector('.aboutUS');
-  element.style.display = "none";
-  var element2 = document.querySelector('.PAGE4');
-  element2.style.display = "inline";
-}
-function mood()
-{
-  var element = document.querySelector('.PAGEONE');
-  element.style.display = "none";
-  element = document.querySelector('.PAGE4');
-  element.style.display = "none";
-  element = document.querySelector('.PAGE3');
-  element.style.display = "none";
-  const element2 = document.querySelector('.aboutUS');
-  element2.style.display = "inline";
-}
-</script>
+    function homepage() {
+      location.reload();
+    }
+
+    function painbucket() {
+      var q = this.getCookie("Q");
+      if (q == "") {
+        console.log("XXX");
+        location.href = "http://192.168.1.110/ubon/Ubon-light-interactive/i.html";
+        return
+      }
+
+      var element = document.querySelector('.PAGEONE');
+      element.style.display = "none";
+      element = document.querySelector('.PAGETWO');
+      element.style.display = "none";
+      element = document.querySelector('.PAGE4');
+      element.style.display = "none";
+      element = document.querySelector('.aboutUS');
+      element.style.display = "none";
+      var element2 = document.querySelector('.PAGE3');
+      element2.style.display = "inline";
+    }
+    function painbrush() {
+      var q = this.getCookie("Q");
+      console.log(q);
+      if (q == "") {
+        location.href = "http://192.168.1.110/ubon/Ubon-light-interactive/i.html";
+        return
+      }
+
+      var element = document.querySelector('.PAGEONE');
+      element.style.display = "none";
+      element = document.querySelector('.PAGETWO');
+      element.style.display = "none";
+      element = document.querySelector('.PAGE3');
+      element.style.display = "none";
+      element = document.querySelector('.aboutUS');
+      element.style.display = "none";
+      var element2 = document.querySelector('.PAGE4');
+      element2.style.display = "inline";
+    }
+    function mood() {
+      var q = this.getCookie("Q");
+      console.log(q);
+      if (q == "") {
+        location.href = "http://192.168.1.110/ubon/Ubon-light-interactive/i.html";
+        return
+      }
+
+      var element = document.querySelector('.PAGEONE');
+
+      element.style.display = "none";
+      element = document.querySelector('.PAGETWO');
+      element.style.display = "none";
+      element = document.querySelector('.PAGE4');
+      element.style.display = "none";
+      element = document.querySelector('.PAGE3');
+      element.style.display = "none";
+      const element2 = document.querySelector('.aboutUS');
+      element2.style.display = "inline";
+    }
+  </script>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
